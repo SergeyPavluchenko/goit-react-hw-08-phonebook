@@ -1,17 +1,17 @@
-import { FormLogin } from './LoginForm.styled';
+import { FormLogin, LabelForm, ButtonForm } from './LoginForm.styled';
 
 export const LoginForm = () => {
   return (
     <FormLogin>
-      <label>
+      <LabelForm>
         Email
         <input type="email" name="email" placeholder="Email" />
-      </label>
-      <label>
+      </LabelForm>
+      <LabelForm>
         Password
         <input type="password" name="password" placeholder="Password" />
-      </label>
-      <button type="submit"> Log In</button>
+      </LabelForm>
+      <ButtonForm type="submit"> Log In</ButtonForm>
     </FormLogin>
   );
 };
