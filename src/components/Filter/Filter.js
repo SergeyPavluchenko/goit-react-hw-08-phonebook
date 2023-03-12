@@ -1,7 +1,7 @@
+import { nanoid } from 'nanoid';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectFilter } from 'redux/selectors';
 import { setFilter } from 'redux/filterSlice';
-import { nanoid } from 'nanoid';
 import { LabelFilterStyle, InputFilterStyled } from './Filter.styled';
 
 const searchId = nanoid();
@@ -23,5 +23,9 @@ const Filter = () => {
     </>
   );
 };
+
+// Filter.propTypes = {
+//   value: PropTypes.string,
+// };
 
 export default Filter;

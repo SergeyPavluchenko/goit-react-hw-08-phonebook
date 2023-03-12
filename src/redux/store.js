@@ -1,8 +1,6 @@
 import { contactReducer } from './contactSlice';
 import { filterReducer } from './filterSlice';
-
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
-
 import {
   persistStore,
   persistReducer,
@@ -40,3 +38,7 @@ export const store = configureStore({
 });
 
 export const persistor = persistStore(store);
+
+// function getDefaultMiddleware<S = any>(
+//   options: GetDefaultMiddlewareOptions = {}
+// ): Middleware<{}, S>[]

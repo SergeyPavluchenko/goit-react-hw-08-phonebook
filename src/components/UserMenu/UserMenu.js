@@ -9,9 +9,9 @@ export const UserMenu = () => {
 
   return (
     <UserMenuBlok>
-      <WelcomeText>Welocome, {user.name}</WelcomeText>
+      <WelcomeText>Welcome, {user.name}</WelcomeText>
       <UserMenuButton type="button" onClick={() => dispatch(logOut())}>
-        log Out
+        Log Out
       </UserMenuButton>
     </UserMenuBlok>
   );

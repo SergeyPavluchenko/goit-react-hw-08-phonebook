@@ -19,20 +19,20 @@ export const RegisterForm = () => {
   };
 
   return (
-    <FormRegister onSubmit={handleSubmit}>
+    <FormRegister onSubmit={handleSubmit} autoComplete="on">
       <FormLabel>
-        UserName
-        <input type="text" name="name" placeholder="UserName" />
+        Username
+        <input type="text" name="name" />
       </FormLabel>
       <FormLabel>
         Email
-        <input type="email" name="email" placeholder="Email" />
+        <input type="email" name="email" />
       </FormLabel>
       <FormLabel>
         Password
-        <input type="password" name="password" placeholder="Password" />
+        <input type="password" name="password" />
       </FormLabel>
-      <FormButton type="submit"> Register</FormButton>
+      <FormButton type="submit">Register</FormButton>
     </FormRegister>
   );
 };

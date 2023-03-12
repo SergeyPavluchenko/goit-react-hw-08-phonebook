@@ -1,9 +1,8 @@
 import { HomeTitle } from './Home.styled';
 
-const Home = () => {
+const Home = () => (
   <div>
-    <HomeTitle>Phonebook</HomeTitle>
-  </div>;
-};
-
+    <HomeTitle>My Phonebook</HomeTitle>
+  </div>
+);
 export default Home;

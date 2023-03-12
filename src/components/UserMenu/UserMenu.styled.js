@@ -12,7 +12,7 @@ export const WelcomeText = styled.p`
 
 export const UserMenuButton = styled.button`
   font-weight: 700;
-  border-radius: 15px;
+  border-radius: 8px;
   padding: 5px 10px;
 
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 2, 0.2),

@@ -1,10 +1,10 @@
+import { nanoid } from 'nanoid';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addContact } from 'redux/operations';
 import { useSelector } from 'react-redux';
 import { selectContact } from 'redux/selectors';
 import { Notify } from 'notiflix';
-import { nanoid } from 'nanoid';
 import {
   FormStyle,
   LabelStyle,
@@ -82,5 +82,9 @@ const FormPhoneBook = () => {
     </FormStyle>
   );
 };
+
+// FormPhoneBook.propTypes = {
+//   onSubmit: PropTypes.func.isRequired,
+// };
 
 export default FormPhoneBook;

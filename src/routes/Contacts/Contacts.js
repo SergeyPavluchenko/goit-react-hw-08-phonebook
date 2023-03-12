@@ -4,9 +4,9 @@ import { selectIsLoading } from 'redux/selectors';
 import { selectError } from 'redux/selectors';
 import { selectContact } from 'redux/selectors';
 import { fetchContacts } from 'redux/operations';
-import ContactList from '../../components/ContactsList/ContactList';
+import ContactList from 'components/Contacts/ContactList';
 import Filter from 'components/Filter/Filter';
-import FormPhoneBook from '../../components/FormPhoneBook/FormPhoneBook';
+import FormPhoneBook from 'components/FormPhoneBook/FormPhoneBook';
 
 const Contacts = () => {
   const dispatch = useDispatch();
